@@ -29,7 +29,10 @@ public static void main(String[] args) {
             if(num[i]==num1[i])
                 str="sorted";
         else
+        {
                 str="not sorted";
+                break;
+        }
         System.out.println(str);
             
         
